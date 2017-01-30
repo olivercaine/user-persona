@@ -9,16 +9,15 @@
 		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 	</head>
 	<body ng-controller="controller">
-		<h1>User Persona 
-		</h1>
-		<select name="repeatSelect" id="repeatSelect" ng-model="model" ng-options="persona.Name for persona in Personas track by persona.Id"></select>
-		<p class="top-right"><a href="https://xtensio.com/how-to-create-a-persona/" target="_blank">How to use</a></p>
+		<h1>User Persona</h1>
+		<select class="top-right" ng-model="model" ng-options="persona.Name for persona in Personas track by persona.Id"></select>
+		<p class="text-center"><a href="https://xtensio.com/how-to-create-a-persona/" target="_blank">How to use</a></p>
 		<div class="container">
 			<div class="col">
 				<div class="row" id="motives">
-					<h2 ng-bind="model.Name"></h2>
-					<img alt="Person" ng-src="{{model.Photo}}">
-					<p>"{{model.Quote}}"</p>
+					<h2>{{model.Name}}</h2>
+					<img alt="Person" ng-src="photos/{{model.Photo}}">
+					<p class="text-center">"{{model.Quote}}"</p>
 					<ul>
 						<li>Age: {{model.Age}}</li>
 						<li>Occupation: {{model.Occupation}}</li>

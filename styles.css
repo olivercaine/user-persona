@@ -19,17 +19,13 @@ h2 {
 }
 
 img {
-	width: 100%;
+	display: block;
+	margin: 0 auto;
+	max-height: 250px;
 }
 
 ul {
 	padding-left: 1.2em;
-}
-
-select {
-	left: -43.5px;
-	margin-left: 50%;
-	position: relative;
 }
 
 .text-center {
