@@ -9,7 +9,9 @@
 		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 	</head>
 	<body ng-controller="controller">
-		<h1>User Persona</h1>
+		<h1>User Persona 
+		</h1>
+		<select name="repeatSelect" id="repeatSelect" ng-model="model" ng-options="persona.Name for persona in Personas track by persona.Id"></select>
 		<p class="top-right"><a href="https://xtensio.com/how-to-create-a-persona/" target="_blank">How to use</a></p>
 		<div class="container">
 			<div class="col">
