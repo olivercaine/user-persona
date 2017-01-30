@@ -6,7 +6,7 @@ angular.module("angular", [])
 			{		
 				Id: 0,
 				Name: "Falcor",
-				Photo: "Falcor.jpg",
+				Photo: "falcor.jpg",
 				Quote: "A quotation that captures the essence of this person's personality",
 				Age: 497,
 				Occupation: "Being a Luckdragon",
@@ -40,7 +40,7 @@ angular.module("angular", [])
 			{	
 				Id: 1,
 				Name: "Atreyu",
-				Photo: "Atreyu.jpg",
+				Photo: "atreyu.jpg",
 				Quote: "A quotation that captures the essence of this person's personality",
 				Age: 17,
 				Occupation: "Searching for a cure for the Empress",
